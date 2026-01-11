@@ -52,7 +52,7 @@ https://akmal-e-commerse.netlify.app
 ![Admin Products](./screenshots/Add.png)
 
 ### 🛠 Admin Panel
-![Admin Products](./screenshots/)
+![Admin Products](./screenshots/AdminPage.png)
 
 
 ## Admin panel orqali quyidagi obyektlar ustida **CRUD** amallari bajariladi:
