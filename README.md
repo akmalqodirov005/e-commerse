@@ -1,20 +1,94 @@
-# React + Vite
+# 🛒 Akmal E-Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu loyiha **React, Redux Toolkit va Ant Design** yordamida ishlab chiqilgan **to‘liq funksional E-commerce (onlayn savdo) web ilova** hisoblanadi.  
+Loyihada foydalanuvchi tomoni va admin panel to‘liq ishlab chiqilgan.
 
-Currently, two official plugins are available:
+🌐 Live demo:  
+https://akmal-e-commerse.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🛠 Texnologiyalar
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ React
+- 🧰 Redux Toolkit
+- 🔁 RTK Query
+- 🎨 Ant Design
+- 🌐 REST API
+- 📱 Responsive Design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# e-commerse
-# e-commerse
-# akki-market
-# e-commerse
+## ⚙️ Asosiy imkoniyatlar (Features)
+
+### 🛍 Foydalanuvchi tomoni
+- ✅ Mahsulotlarni ko‘rish
+- ✅ Kategoriya bo‘yicha filterlash
+- ✅ Narx oralig‘i bo‘yicha filterlash
+- ✅ Qidiruv (search)
+- ✅ Pagination (sahifalash)
+- ✅ To‘liq responsive dizayn (mobile / tablet / desktop)
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](./screenshots/Home.png)
+
+### 🛍 Products Page
+![Products](./screenshots/Filter.png)
+
+### 📄 Product Detail
+![Product Detail](./screenshots/Detail.png)
+
+### 🛒 Cart
+![Cart](./screenshots/Cart.png)
+
+### 🛠 Admin Dashboard
+![Admin Dashboard](./screenshots/Admin.png)
+
+### 📦 Admin – Products
+![Admin Products](./screenshots/Add.png)
+
+### 🛠 Admin Panel
+![Admin Products](./screenshots/)
+
+
+## Admin panel orqali quyidagi obyektlar ustida **CRUD** amallari bajariladi:
+
+- 📦 Mahsulotlar (Products)
+- 🗂 Kategoriyalar (Categories)
+- 📍 Joylashuvlar (Locations)
+- 👤 Foydalanuvchilar (Users)
+
+---
+
+### 🔐 Autentifikatsiya
+
+- Admin autentifikatsiyasi **access token** va **refresh token** orqali amalga oshirilgan
+- Xavfsiz API so‘rovlar
+
+---
+
+### 🔄 API bilan ishlash
+
+- Backend API’lardan ma’lumotlarni olish va boshqarish uchun  
+  **Redux Toolkit Query (RTK Query)** ishlatilgan
+- Cache va loading holatlari avtomatik boshqariladi
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── services/        # RTK Query API'lar
+├── store/
+├── features/
+├── assets/
+├── App.jsx / App.tsx
+└── main.jsx / main.tsx
+

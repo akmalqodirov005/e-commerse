@@ -20,7 +20,7 @@ const Cart = () => {
   );
 
   return (
-    <div className="min-h-screen mt-[80px] bg-gray-50">
+    <div className="min-h-screen mt-20 bg-gray-50">
       {/* Header */}
       <div className="bg-white border-b sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -64,7 +64,7 @@ const Cart = () => {
                 >
                   <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
                     {/* Product Image */}
-                    <div className="flex-shrink-0">
+                    <div className="shrink-0">
                       <img
                         src={item.images?.[0]}
                         alt={item.title}
@@ -102,7 +102,7 @@ const Cart = () => {
                             />
                           </button>
 
-                          <span className="text-md sm:text-lg font-semibold text-gray-900 min-w-[2rem] text-center">
+                          <span className="text-md sm:text-lg font-semibold text-gray-900 min-w-8 text-center">
                             {item.qty}
                           </span>
 
@@ -138,7 +138,7 @@ const Cart = () => {
             </div>
 
             {/* RIGHT SIDE - Order Summary */}
-            <div className="lg:w-96 flex-shrink-0">
+            <div className="lg:w-96 shrink-0">
               <div className="bg-white rounded-2xl border border-gray-200 p-4 sm:p-6 sticky top-24 lg:top-24">
                 <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-4 sm:mb-6">
                   Order Summary
